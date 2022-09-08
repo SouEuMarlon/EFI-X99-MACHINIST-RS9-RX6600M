@@ -8,6 +8,6 @@ Vídeo: Radeon RX6600M (8 GB)
 Áudio: Realtek ALC662
 SMBIOS: iMacPro1,1
 macOS: Big Sur ou superiores
-Opencore: 0.7.6
+Opencore: 0.8.4
 ```
 

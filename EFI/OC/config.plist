@@ -606,7 +606,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v alcid=5 npci=0x2000 watchdog=0 -revsbvmm</string>
+				<string>-v alcid=5 npci=0x2000 watchdog=0 -revsbvmm agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>hwcAAA==</data>
 				<key>prev-lang:kbd</key>

@@ -8,7 +8,7 @@ GPU: Radeon RX6600M (8 GB)
 Audio: Realtek ALC897
 SMBIOS: iMacPro1,1
 macOS: Monterey
-Opencore: 0.8.4
+Opencore: 0.8.5
 ```
 
 # BIOS Settings

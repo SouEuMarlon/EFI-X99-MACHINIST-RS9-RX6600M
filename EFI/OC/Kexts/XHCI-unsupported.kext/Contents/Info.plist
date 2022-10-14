@@ -116,7 +116,7 @@
 			<key>IOPCIPauseCompatible</key>
 			<true/>
 			<key>IOPCIPrimaryMatch</key>
-			<string>0x43ed8086 0xa0ed8086</string>
+			<string>0x43ed8086</string>
 			<key>IOPCITunnelCompatible</key>
 			<true/>
 			<key>IOProbeScore</key>

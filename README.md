@@ -7,8 +7,8 @@ CPU: Intel Xeon E5-2670 v3, 2300 MHz (12C/24T)
 GPU: Radeon RX6600M (8 GB)
 Audio: Realtek ALC897
 SMBIOS: iMacPro1,1
-macOS: Monterey
-Opencore: 0.9.1
+macOS: Ventura
+Opencore: 0.9.4
 ```
 
 # BIOS Settings

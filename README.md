@@ -9,7 +9,7 @@ Memory: 16GB RAM
 Audio: Realtek ALC897
 SMBIOS: iMacPro1,1
 macOS: Sonoma
-Opencore: 0.9.5
+Opencore: 0.9.6
 ```
 
 # BIOS Settings

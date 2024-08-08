@@ -8,7 +8,7 @@ GPU: Radeon RX6600M (8 GB)
 Memory: 16GB RAM
 Audio: Realtek ALC897
 SMBIOS: iMacPro1,1
-macOS: Sonoma 14.6
+macOS: Sonoma 14.6.1
 Opencore: 1.0.1
 ```
 

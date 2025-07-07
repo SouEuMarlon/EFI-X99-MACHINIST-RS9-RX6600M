@@ -9,7 +9,7 @@ Memory: 16GB RAM
 Audio: Realtek ALC897
 SMBIOS: iMacPro1,1
 macOS: Sequoia 15.5
-Opencore: 1.0.4
+Opencore: 1.0.5
 ```
 
 # BIOS Settings

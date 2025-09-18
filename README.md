@@ -14,33 +14,34 @@ Opencore: 1.0.5
 
 # BIOS Settings
 
-### Disable
+First of all, check if the BIOS date and time are correct.
+Now just follow the steps below:
 
-- Fast Boot
-- Secure Boot
-- Serial/COM Port
-- Parallel Port
-- VT-d (can be enabled if you set `DisableIoMapper` to YES)
-- Compatibility Support Module (CSM).
-- Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
-- Intel SGX
-- Intel Platform Trust
-- CFG Lock (MSR 0xE2 write protection)
-  - This must be off, if you can't find the option then **`ENABLE`** `AppleXcpmCfgLock`. 
-  - Your hack will not boot with CFG-Lock enabled.
-  - For 10.10 and older, you'll need to **`ENABLE`** `AppleCpuPmCfgLock` as well.
+### Advanced
 
-### Enable
+- NCT5532D SIO Configuration
+  - Serial Port [Disabled]
+    
+- PCI Subsystem Settings
+  - Above 4G Decoding [Disabled] & Re-size BAR Support [Disabled]
+        
+- CSM Configuration
+  - CSM Support [Disabled]
+  (PS: To do this, you first need to change the Video setting to UEFI (save and restart), return to the BIOS, and then you will be able to disable CSM Support.)
+    
+- USB Configuration
+  - XHCI Hand-off [Enabled] & EHCI Hand-off [Enabled]  
 
-- VT-x
-- Above 4G decoding. 
-  - This must be on, if you can't find the option then add `npci=0x2000` to `boot-args`. 
-  - Do not have both this option and `npci` on `boot-args` enabled at the same time.
-- Hyper-Threading
-- Execute Disable Bit
-- EHCI/XHCI Hand-off
-- OS type: Windows 8.1/10/11 UEFI Mode
-- SATA Mode: AHCI
+### IntelRCSetup
+
+- Processor Configuration
+  - MSR Lock Control [Disabled]
+ 
+### Security 
+
+- Secure Boot menu
+  - Secure Boot [Disabled]
+
 
 # References
 

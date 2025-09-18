@@ -7,8 +7,8 @@ CPU: Intel Xeon E5-2670 v3, 2300 MHz (12C/24T)
 GPU: Radeon RX6600M (8 GB)
 Memory: 16GB RAM
 Audio: Realtek ALC897
-SMBIOS: iMacPro1,1
-macOS: Sequoia 15.5
+SMBIOS: MacPro7,1
+macOS: Tahoe 26
 Opencore: 1.0.5
 ```
 

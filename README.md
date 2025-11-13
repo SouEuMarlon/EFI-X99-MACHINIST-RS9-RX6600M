@@ -8,8 +8,8 @@ GPU: Radeon RX6600M (8 GB)
 Memory: 16GB RAM
 Audio: Realtek ALC897
 SMBIOS: MacPro7,1
-macOS: Tahoe 26
-Opencore: 1.0.5
+macOS: Tahoe 26.1
+Opencore: 1.0.6
 ```
 
 # BIOS Settings
